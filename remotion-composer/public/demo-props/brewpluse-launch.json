@@ -1,0 +1,203 @@
+{
+  "theme": "flat-motion-graphics",
+  "cuts": [
+    {
+      "id": "launch-hero",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 7.5,
+      "text": "BrewPulse 1.0",
+      "subtitle": "The Next-Gen Smart Cafe Management & POS Operating System",
+      "backgroundImage": "assets/storefront.png",
+      "backgroundOverlay": 0.68,
+      "accentColor": "#F59E0B"
+    },
+    {
+      "id": "launch-problem-solution",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 7.5,
+      "out_seconds": 14.5,
+      "title": "The Cafe Operation Bottleneck Solved",
+      "leftLabel": "Traditional Legacy POS",
+      "leftValue": "15m Order Lag · Misplaced Paper KOTs · Network Crashes · Slow Billing",
+      "rightLabel": "BrewPulse Cloud OS",
+      "rightValue": "Sub-Second Cart · Zero Order Loss · Live Kitchen Dispatch · Offline Engine",
+      "backgroundColor": "#0F172A",
+      "cardBackgroundColor": "#1E293B"
+    },
+    {
+      "id": "launch-step1-pos",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 14.5,
+      "out_seconds": 21.5,
+      "stat": "< 1.2s",
+      "subtitle": "Step 1: Lightning Fast Cart, Smart Add-ons & Quick Checkout",
+      "backgroundImage": "assets/pos-interface.jpg",
+      "backgroundOverlay": 0.78,
+      "accentColor": "#10B981",
+      "backgroundColor": "#0F172A"
+    },
+    {
+      "id": "launch-step2-kds",
+      "source": "",
+      "type": "callout",
+      "callout_type": "tip",
+      "in_seconds": 21.5,
+      "out_seconds": 29.0,
+      "title": "Step 2: Real-Time Kitchen Display System (KDS)",
+      "text": "Instant WebSocket synchronization sends orders straight to kitchen screens with zero refresh latency.",
+      "accentColor": "#38BDF8",
+      "backgroundColor": "#0F172A"
+    },
+    {
+      "id": "launch-step3-hardware",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 29.0,
+      "out_seconds": 36.5,
+      "title": "Step 3: Wireless Web-Bluetooth Hardware Sync",
+      "leftLabel": "Thermal ESC/POS Printing",
+      "leftValue": "Direct connection to 58mm & 80mm wireless thermal printers from browser",
+      "rightLabel": "Digital Invoicing & QR",
+      "rightValue": "Instant KOT tickets, custom tax bills & digital QR customer receipts",
+      "backgroundColor": "#0F172A",
+      "cardBackgroundColor": "#1E293B"
+    },
+    {
+      "id": "launch-dual-database",
+      "source": "",
+      "type": "comparison",
+      "in_seconds": 36.5,
+      "out_seconds": 44.0,
+      "title": "Dual-Database Cloud Reliability",
+      "leftLabel": "Supabase / PostgreSQL",
+      "leftValue": "Live Kitchen Orders, Store Catalogs & Staff RBAC Security",
+      "rightLabel": "MongoDB Atlas",
+      "rightValue": "High-Throughput Sales Telemetry, Device Events & Sensor Logs",
+      "backgroundColor": "#0F172A",
+      "cardBackgroundColor": "#1E293B"
+    },
+    {
+      "id": "launch-metrics-chart",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 44.0,
+      "out_seconds": 51.5,
+      "title": "Cafe Performance Impact with BrewPulse",
+      "chartData": [
+        { "label": "Avg Table Turnaround (min)", "value": 4 },
+        { "label": "Order Errors (%)", "value": 1 },
+        { "label": "Daily Revenue Growth (%)", "value": 38 }
+      ],
+      "chartColors": ["#38BDF8", "#FB7185", "#34D399"],
+      "showGrid": true,
+      "showValues": true,
+      "backgroundColor": "#0F172A"
+    },
+    {
+      "id": "launch-offline-mode",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 51.5,
+      "out_seconds": 56.5,
+      "stat": "100% Offline",
+      "subtitle": "IndexedDB local persistence keeps orders flowing when Wi-Fi drops",
+      "backgroundImage": "assets/cafe-building.jpg",
+      "backgroundOverlay": 0.80,
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#0F172A"
+    },
+    {
+      "id": "launch-finale",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 56.5,
+      "out_seconds": 59.0,
+      "text": "BrewPulse is Live",
+      "subtitle": "Run Your Cafe. Not Your Software. Get Started Today.",
+      "accentColor": "#10B981"
+    }
+  ],
+  "overlays": [
+    {
+      "type": "section_title",
+      "in_seconds": 0.8,
+      "out_seconds": 4.5,
+      "text": "OFFICIAL PRODUCT LAUNCH",
+      "subtitle": "Modern Hospitality Intelligence",
+      "accentColor": "#F59E0B"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 8.0,
+      "out_seconds": 12.5,
+      "text": "-75% Lag",
+      "subtitle": "Frictionless Cafe Operations",
+      "accentColor": "#10B981",
+      "position": "bottom-right"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 15.0,
+      "out_seconds": 19.0,
+      "text": "STEP 1 · SMART CART",
+      "subtitle": "Zero Delay Touch Ordering",
+      "accentColor": "#10B981"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 22.5,
+      "out_seconds": 26.5,
+      "text": "0s Sync Lag",
+      "subtitle": "Instant Kitchen Dispatch",
+      "accentColor": "#38BDF8",
+      "position": "bottom-right"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 29.5,
+      "out_seconds": 33.5,
+      "text": "STEP 3 · HARDWARE SYNC",
+      "subtitle": "Web-Bluetooth Printing",
+      "accentColor": "#A78BFA"
+    },
+    {
+      "type": "stat_reveal",
+      "in_seconds": 37.0,
+      "out_seconds": 41.5,
+      "text": "99.99%",
+      "subtitle": "Multi-Store Cloud Uptime",
+      "accentColor": "#60A5FA",
+      "position": "bottom-right"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 44.5,
+      "out_seconds": 48.5,
+      "text": "+38% REVENUE",
+      "subtitle": "Faster Table Turns",
+      "accentColor": "#34D399"
+    },
+    {
+      "type": "section_title",
+      "in_seconds": 56.8,
+      "out_seconds": 58.9,
+      "text": "JOIN THE FUTURE",
+      "subtitle": "Deploy BrewPulse Today",
+      "accentColor": "#10B981"
+    }
+  ],
+  "captions": [],
+  "audio": {
+    "music": {
+      "src": "assets/brewpluse-launch-music.mp3",
+      "volume": 0.45,
+      "fadeInSeconds": 1.5,
+      "fadeOutSeconds": 2.5,
+      "loop": true
+    }
+  }
+}
